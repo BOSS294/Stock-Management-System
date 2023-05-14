@@ -1,0 +1,18 @@
+Define the requirements: Before starting,
+it's important to determine what functionalities the stock management system should have. List down the necessary features such as adding new stock, updating stock levels, deleting stock, and generating reports.
+
+Design the user interface: Create a user interface design using HTML and CSS. Consider how you want to organize the information on the page and the different components that you need to create, such as forms and tables.
+
+Write the HTML: Once you have your design, start coding the HTML for your stock management system. Use semantic HTML elements to create a well-structured document that's easy to understand.
+
+Add styles with CSS: Style your HTML with CSS to make it look more visually appealing and user-friendly. Use CSS to add colors, typography, and layout to your design.
+
+Implement functionality with JS: Add interactivity and functionality to your system using JavaScript. This includes adding event listeners to forms and buttons, creating functions to add, update, and delete stock, and generating reports.
+
+Test your system: Test your system thoroughly to make sure that all the functionalities are working correctly. Test it with different types of inputs and user scenarios.
+
+Deploy your system: Once you are satisfied with your stock management system, deploy it on a web server so that it can be accessed by your users.
+
+STARTING 
+
+CREATING AN HTML CSS PAGE

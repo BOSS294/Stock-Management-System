@@ -1,0 +1,183 @@
+body {
+    background-color: black;
+}
+h1{
+    color:red;
+}
+h5{
+    text-decoration: double;
+    color:red;
+}
+.menu-bar {
+    width: 100px;
+    color:red;
+    display: flex;
+}
+.navbar {
+    
+  background-color: black;
+  display: flex;
+  padding-left: 10px;
+  justify-content: space-between;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: green;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+  .navbar-right {
+    display: block;
+    text-align: right;
+  }
+}
+.main-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.main-area div {
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.main-area div:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+.main-area h5:first-child {
+  margin-bottom: 10px;
+}
+.main-calc-start{
+    color: green;
+}
+.main-calc {
+   background-color: pink;
+   padding: 20px;
+   border: 1px solid red;
+   border-radius: 5px;
+   margin-top: 20px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: red;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  color: red;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="number"]:hover,
+button:hover {
+  border-color: red;
+}
+
+button {
+  background-color: red;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #555;
+}
+.result:hover {
+  box-shadow: 0px 0px 10px 5px #ff0000;
+}
+.stock-area {
+  background-color: pink;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.stock-area h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.stock-area label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.stock-area input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.stock-area button {
+  background-color: #4CAF50;
+  color: red;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.stock-area button:hover {
+  background-color: #3e8e41;
+}
+
+.stock-area p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.stock-area #stock-count {
+  font-weight: bold;
+  color: red;
+  text-shadow: 0px 0px 10px #f44336;
+}
+#stock-count {
+    color: red;
+}
+#purchase-count{
+    color: red;
+}
